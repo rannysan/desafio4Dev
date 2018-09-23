@@ -1,0 +1,59 @@
+header .nav-bar{
+	position: fixed!important;
+	top: 0;
+	left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 56px;
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: #e53935;
+    -webkit-box-shadow: 5px 4px 3px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    5px 4px 3px rgba(50, 50, 50, 0.77);
+    box-shadow:         5px 4px 3px rgba(50, 50, 50, 0.77);
+}
+
+header .nav-wrapper{
+    position: relative;
+    height: 100%;
+}
+header .nav-wrapper h2{
+    position: absolute;
+    padding: 0;
+    margin-top: 7px;
+    white-space: nowrap;
+    text-decoration-style: solid;
+    font-size: 2.1rem;
+}
+
+header .options{
+    list-style: none;
+    float: right !important;
+}
+
+header .options a{
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+header ul li{
+    transition: background-color .3s;
+    display:inline;
+	list-style-type:none;
+    padding: 0;
+}
+
+div .alinha{
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+header a:hover{
+    background-color: #d33432;
+}

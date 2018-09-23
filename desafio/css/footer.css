@@ -1,0 +1,28 @@
+footer{
+    width: 100%;
+    font-family: 'Acme', sans-serif;
+}
+
+.footer-page{
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: .9rem;
+    color: aliceblue;
+    background-color: #e53935;
+}
+
+footer .container{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.footer-copyright{
+    overflow: hidden;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: #d33432;
+    width: 100%;
+}
