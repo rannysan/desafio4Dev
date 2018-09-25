@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./css/index-main.css">
+        <link rel="stylesheet" href="./css/rate.css">
     </head>
     <body>
         <header>
@@ -28,18 +28,34 @@
             </nav>
         </header>
         
-        <section id="main">
-            <div class="container">
-                <br>
-                <br>
-                <h1 class="center">Comece sua avaliação agora</h1>
-                <div class="row center">
-                    <h2>Você pode fazer sua avaliação agora mesmo, você só precisa se cadastrar</h2>
-                </div>
-                <div class="row center">
-                    <a href="register.html"><button>Cadastre-se aqui</button></a>
-                </div>
-            </div>
+        <section id="rate">
+                <h1>Avaliação</h1>
+            <div class="container">                
+                <form id="inputs">
+                    <div class="input-field">
+                        Nota:<br>
+                        <input type="radio" name="nota" value="1"> 1 
+                        <input type="radio" name="nota" value="2"> 2 
+                        <input type="radio" name="nota" value="3"> 3 
+                        <input type="radio" name="nota" value="4"> 4 
+                        <input type="radio" name="nota" value="5"> 5 
+                        <input type="radio" name="nota" value="6"> 6 
+                        <input type="radio" name="nota" value="7"> 7 
+                        <input type="radio" name="nota" value="8"> 8 
+                        <input type="radio" name="nota" value="9"> 9 
+                        <input type="radio" name="nota" value="10"> 10 
+
+                        <br><br><br><br><br>
+
+                        Qual é o motivo dessa nota?<br>
+                        <input type="text" name="obs" id="nota-coment">
+                        <br><br><br>
+
+                        <input type="submit" value="Finalizar">
+
+                    </div>
+                </form>   
+            </div>  
         </section>
 
         <footer class="footer-page">

@@ -1,0 +1,80 @@
+#register{
+    font-family: 'Acme', sans-serif;
+    height: 800px;
+	padding: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: aliceblue;
+    background: linear-gradient(
+	    to bottom,
+	    rgba(133, 25, 25, 0.7),
+	    rgba(133,25,25, 0.8)
+      ),url("../assets/background.jpg");
+      background-repeat: round;
+}
+
+#register h1{
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#register .container{
+    display:flex;
+    justify-content: center;
+}
+
+
+#register .container .input-field{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#register form{
+	margin-top: 50px;
+}
+
+#register .input-field input[type=text], input[type=date]{
+    border-radius: 8px;
+    border-style: hidden;
+    min-height: 10px;
+    padding: 6px 8px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#register .input-field input[type=text]{
+    min-width: 500px;
+}
+
+#register .input-field input[type=text]:focus {
+	border-bottom: 1px solid #283593!important;
+	box-shadow: 0 1px 0 0 #283593!important;
+}
+
+#register #cancel{
+  align-self: center;
+  margin-top: 286px;
+}
+
+#register .input-field input[type=submit]{
+    padding-top: 50px;
+}
+
+#register .input-field input[type=submit], button{
+    border-radius: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:aliceblue;
+    background-color: #bd212193;
+    border-bottom-style: groove;
+    transition: .5s;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#register .input-field input[type=submit]:hover, button:hover{
+    background-color: #cc2020dc;
+}

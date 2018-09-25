@@ -1,0 +1,77 @@
+#rate{
+    font-family: 'Acme', sans-serif;
+    height: 800px;
+	padding: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: aliceblue;
+    background: linear-gradient(
+	    to bottom,
+	    rgba(133, 25, 25, 0.7),
+	    rgba(133,25,25, 0.8)
+      ),url("../assets/background.jpg");
+      background-repeat: round;
+}
+
+#rate h1{
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#rate .container{
+    display:flex;
+    justify-content: center;
+}
+
+#rate .input-field{
+    font-size: 16px;
+}
+
+#rate button{
+    border-radius: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:aliceblue;
+    background-color: #bd212193;
+    border-bottom-style: groove;
+    transition: .5s;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-right: auto; 
+    margin-top: 20px;   
+}
+
+#rate button:hover{
+    background-color: #cc2020dc;
+}
+
+#rate .input-field input[type=text]{
+    min-width: 500px;
+    min-height: 300px;
+}
+
+#rate .input-field input[type=text]:focus {
+	border-bottom: 1px solid #283593!important;
+	box-shadow: 0 1px 0 0 #283593!important;
+}
+
+#rate .input-field input[type=submit]{
+    border-radius: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:aliceblue;
+    background-color: #bd212193;
+    border-bottom-style: groove;
+    transition: .5s;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#rate .input-field input[type=submit]:hover{
+    background-color: #cc2020dc;
+}
